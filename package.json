@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "bin/www",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newHotCat/server.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "thorne_lew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newHotCat/server/issues"
+  },
+  "homepage": "https://github.com/newHotCat/server#readme",
+  "dependencies": {
+    "express": "^4.17.0"
+  },
+  "devDependencies": {
+    "debug": "^4.1.1"
+  }
+}
