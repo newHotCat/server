@@ -1,5 +1,3 @@
-const express = require('express')
+const Server = require('@svon/server')
 
-const app = express()
-
-module.exports =  app
+module.exports =  Server

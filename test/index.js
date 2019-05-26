@@ -1,5 +1,7 @@
-const app = require('../bin/www')
+const Server = require('../bin/www')
 
-app.listen(3000, function () {
-    console.log('listen is http://localhost:3000')
+const {app} = Server()
+
+app.get('/', function (req, res) {
+    res.send('hello world')
 })

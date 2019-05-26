@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "@newhotcat/server",
   "version": "1.0.0",
   "description": "server",
   "main": "bin/www",
@@ -20,9 +20,6 @@
   },
   "homepage": "https://github.com/newHotCat/server#readme",
   "dependencies": {
-    "express": "^4.17.0"
-  },
-  "devDependencies": {
-    "debug": "^4.1.1"
+    "@svon/server": "git+https://github.com/svon/server.git"
   }
 }
